@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5{
 }
 
 #RP-main-menu{
-    width: 25vw;
+    width: 22vw;
     height: 100vh;
     background-color: #111;
     text-align: center;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5{
 }
 
 #RP-main-content{
-    width: 75vw;
+    width: 78vw;
     height: 100vh;
     background-color: #141414;
     overflow: hidden;
