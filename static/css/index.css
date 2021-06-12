@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5{
     transition: color 0.6s ease;
 }
 
-#RP-main-menu:hover .RP-crown{
+#RP-main-menu .RP-crown:hover{
     color: var(--golden);
     transition: color 0.6s ease;
 }
