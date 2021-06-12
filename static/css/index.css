@@ -1,0 +1,128 @@
+/* Google Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+/* Global Variables */
+:root{
+    --silver: #eee;
+    --golden: #be8f1f;
+}
+
+body{
+    color: #eee;
+    overflow: hidden;
+}
+
+a{
+    color: var(--silver);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5{
+    text-transform: uppercase;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#RP-header{
+}
+
+#RP-main{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#RP-main-menu{
+    width: 25vw;
+    height: 100vh;
+    background-color: #111;
+    text-align: center;
+    transition: color 0.6s ease;
+}
+
+#RP-main-menu:hover .RP-crown{
+    color: var(--golden);
+    transition: color 0.6s ease;
+}
+
+#RP-main-menu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.RP-main-menu-list-item a{
+    transition: color 0.6s ease;
+}
+
+.RP-main-menu-list-item a:hover{
+    color: var(--golden);
+    transition: color 0.6s ease;
+}
+
+.first{
+    margin-top: 75%;
+}
+
+.justify-end{
+    margin-top: auto;
+}
+
+.RP-crown{
+    display: block;
+    margin: 15% 0;
+    color: var(--silver);
+    transition: color 0.6s ease;
+}
+
+#RP-main-content{
+    width: 75vw;
+    height: 100vh;
+    background-color: #141414;
+    overflow: hidden;
+}
+
+#RP-main-content-titleBox{
+    margin: 0;
+    height: 25%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#RP-main-content-titleBox h1{
+    margin: 0 auto;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+#RP-main-content-textBox{
+    height: 75%;
+    width: 100%;
+    overflow: auto;
+}
+
+#RP-main-content-textBox::-webkit-scrollbar{
+    width: 4px;
+}
+
+#RP-main-content-textBox::-webkit-scrollbar-track-piece{
+    border: 5px solid #141414; background: #141414;
+}
+
+#RP-main-content-textBox::-webkit-scrollbar-thumb{
+    background-color: var(--golden);
+}
+
+#RP-main-content-textBox-text{
+    padding: 5%;
+    text-align: justify;
+}
