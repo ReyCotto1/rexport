@@ -1,0 +1,34 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#RP-main-content-textBox-text-flex{
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#RP-main-content-textBox-text-flex-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5%;
+}
+
+.RP-main-content-textBox-text-flex-item {
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  border-radius: 7px;
+}
+
+#python-box{
+    background-image: url("../img/python_inactive.png");
+    transition: background-image 1s ease;
+}
+
+#python-box:hover{
+    background-image: url("../img/python_active.png");
+    transition: background-image 1s ease;
+}
