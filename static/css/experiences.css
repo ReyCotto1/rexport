@@ -7,6 +7,7 @@
   padding: 5%;
   display: flex;
   justify-content: center;
+  align-items: middle;
 }
 
 #RP-main-content-textBox-text-flex-grid {
@@ -17,18 +18,57 @@
 }
 
 .RP-main-content-textBox-text-flex-item {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 200px;
-  color: #fff;
+  color: #000;
   border-radius: 7px;
+  background-color: #eee;
+  transition: color 1s ease;
 }
 
-#python-box{
-    background-image: url("../img/python_inactive.png");
-    transition: background-image 1s ease;
+p{
+    font-size: 10px;
+}
+
+.RP-main-content-textBox-text-flex-item:hover {
+  transition: color 1s ease;
+}
+
+.square{
+    display: block;
+    width: 100px;
+    height: 110px;
+}
+
+.lsquare{
+    display: block;
+    width: 85px;
+    height: 110px;
+}
+
+.RP-main-content-textbox-text-flex-item-subtitle{
+    line-height: 200%;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#html-box:hover{
+    color: #F15931;
+}
+
+#css-box:hover{
+    color: #007DC6;
+}
+
+#js-box:hover{
+    color: #F58233;
 }
 
 #python-box:hover{
-    background-image: url("../img/python_active.png");
-    transition: background-image 1s ease;
+    color: var(--golden);
 }
+
